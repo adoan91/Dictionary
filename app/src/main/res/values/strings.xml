@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dictionary16sp</string>
+    <string-array name="pokepersons">
+        <item>Pikachu</item>
+        <item>Charizard</item>
+        <item>Mewtwo</item>
+        <item>Vulpix</item>
+        <item>Squirtle</item>
+    </string-array>
+</resources>
