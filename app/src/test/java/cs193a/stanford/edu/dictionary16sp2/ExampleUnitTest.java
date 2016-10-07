@@ -1,4 +1,4 @@
-package adoan.dictionary16sp;
+package cs193a.stanford.edu.dictionary16sp2;
 
 import org.junit.Test;
 

@@ -8,23 +8,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cs193a.stanford.edu.dictionary16sp2.DictionaryActivity">
+    tools:context="cs193a.stanford.edu.dictionary16sp2.AddWordActivity">
 
-    <TextView
-        style="@style/KermitTheFrog"
-        android:textColor="#0000FF"
-        android:id="@+id/the_word"
-        android:text="Hello World!"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/new_word"
+        android:hint="your new word"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <ListView
-        style="@style/KermitTheFrog"
-        android:id="@+id/word_list"
+    <EditText
+        android:id="@+id/new_defn"
+        android:hint="its definition"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content" />
 
-    </ListView>
+    <Button
+        android:text="OK"
+        android:onClick="okClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
